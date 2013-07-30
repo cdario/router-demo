@@ -1,0 +1,24 @@
+<template name="homeTemplate">
+  <h1>This is the Home Page</h1>
+</template>
+
+<template name="helpTemplate">
+    <h1>This is the Help Page</h1>
+    <ul>
+      <li><a href="/home">home </a> </li>
+      <li><a href="/user/Curly">/user/curly </a> </li>
+      <li><a href="/user/Larry">/user/larry </a> </li>
+      <li><a href="/user/Moe">/user/moe </a> </li>
+      <li><a href="/contact">contact</a> </li>
+    </ul>
+</template>
+ 
+<template name="profileTemplate">
+    <h1>Profile Page</h1>
+    <p>Welcome back {{username}}</p>
+</template>
+ 
+<template name="contactTemplate">
+    <h1>Contact Page</h1>
+    <p>Contact me on twitter at {{twitterName}}</p>
+</template>
