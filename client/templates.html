@@ -1,9 +1,15 @@
 <template name="homeTemplate">
-  <h1>This is the Home Page</h1>
+  <div class="container">
+    <h1>This is the Home Page</h1>
+      <a href="/">help </a> 
+  </div>
 </template>
 
 <template name="helpTemplate">
-    <h1>This is the Help Page</h1>
+<div class="container">
+
+   <h1>This is the Help Page</h1>
+   <br>
     <ul>
       <li><a href="/home">home </a> </li>
       <li><a href="/user/Curly">/user/curly </a> </li>
@@ -11,14 +17,23 @@
       <li><a href="/user/Moe">/user/moe </a> </li>
       <li><a href="/contact">contact</a> </li>
     </ul>
+</div>
+
 </template>
  
 <template name="profileTemplate">
+<div class="container">
     <h1>Profile Page</h1>
     <p>Welcome back {{username}}</p>
+      <a href="/">help </a> 
+</div>
+
 </template>
  
 <template name="contactTemplate">
+<div class="container">
     <h1>Contact Page</h1>
     <p>My github id is  {{twitterName}}</p>
+    <a href="/">help </a> 
+</div>
 </template>
